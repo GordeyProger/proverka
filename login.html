@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <header>
+      <div class="container">
+        <div class="header-content">
+            <a href="">
+                <img src="uploads/logo.svg" alt="" class="logo">
+            </a>
+           
+                <ul>
+                    <li>
+                        <a href="">Главная</a>
+                    </li>
+                    <li>
+                        <a href="">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="">Корзина</a>
+                    </li>
+                    <li>
+                        <a href="">Панель администратора</a>
+                    </li>
+                </ul>
+            
+            <a href="" class="profile_link">
+                <img src="uploads/profile.svg" alt="">
+                Профиль
+            </a>
+            <div class="burger_icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu_burger">
+                <ul class="burger_menu-list">
+                    <li>
+                        <a href="">Главная</a>
+                    </li>
+                    <li>
+                        <a href="">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="">Корзина</a>
+                    </li>
+                    <li>
+                        <a href="">Панель администратора</a>
+                    </li>
+                    <li>
+                        <a href="" class="profile_link">
+                            <img src="uploads/profile.svg" alt="" >Профиль
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="">
+                <h1>Вход</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Ваш логин" required>
+                    <i class='bx bx-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Ваш пароль" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <button type="submit" class="btn">Войти</button>
+                <div class="register-link">
+                    <p>Нет аккаунта? <a href="reg.html">Зарегистрируйтесь</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="containes-footer">
+            <table>
+                <tr>
+                    <td>2021 © ООО «Глобал-Софт».</td>
+                    <td>Единый центр продаж:<br>
+                            8 (800) 707-02-52</td>
+                    <td rowspan="3">
+                        <div class="links-footer">
+                                <a href="" class="footer-link">Главная</a>
+                                <a href="" class="footer-link">Каталог</a>
+                                <a href="" class="footer-link">Корзина</a>
+                                <a href="" class="footer-link">Профиль</a>
+                        </div>
+                    </td>
+                    <td>Наши соц. сети</td>
+                </tr>
+                <tr>
+                    <td>Все права защищены.</td>
+                    <td>г. Краснодар: 8 (861) 210-26-26</td>
+                    <td>
+                        <div>
+                            <a href="https://vk.com/globals_ru">
+                                <img src="uploads/vk.png" alt="" class="soc">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCadAaUr2xxW0nGNt35VlBtw/featured">
+                                <img src="uploads/youtube.png" alt="" class="soc">
+                            </a>
+                            <a href="https://ok.ru/group/53388695240799">
+                                <img src="uploads/od.png" alt="" class="soc">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Все указанные на сайте цены носят информационный характер и не являются публичной офертой (ст. 437 ГК РФ)</td>
+                    <td>г. Симферополь:  8 (978) 888-1945</td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+    <script src="js/burger.js"></script>
+</body>
+</html>
